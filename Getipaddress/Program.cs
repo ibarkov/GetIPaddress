@@ -6,7 +6,17 @@ namespace Getipaddress
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			//version
+			int version = 1;
+
+			//Greeting
+			Console.WriteLine($"Console application Get IP address version: {version}");
+			Console.WriteLine("Get IP address hosts by domain name.");
+
+
+
+			//Close window
+			Console.ReadKey();
 		}
 	}
 }
